@@ -1,0 +1,8 @@
+module project2(F,A,B,C,D,E);
+wire A,B,C,D,E,F;
+input A,B,C,D,E;
+output F;
+assign F = B&&C||D&&E||A&&(B^C)&&(D^E);
+
+
+endmodule
